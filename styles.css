@@ -1,0 +1,116 @@
+.header {
+  display: inline;
+  justify-content: center;
+  align-items: center;
+}
+
+input{
+  border: none;
+  background: #131313;
+  color: #687eff;
+  border-radius: 5px;
+}
+
+input::placeholder{
+  color: #949cb0;
+}
+
+.search{
+  position: relative;
+}
+
+.search i {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  font-size: 15px;
+  color: #949cb0
+}
+
+.container {
+  background: rgb(19, 16, 22);
+  color: #949cb0;
+  padding: 2rem;
+  width: 40%;
+  margin: 4rem auto;
+  border-radius: 10px;
+}
+
+.units{
+  font-size: 1.5rem;
+}
+
+.body{
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.city{
+  color: #687eff;
+}
+
+.datetime{
+  margin-bottom: 2rem;
+  font-size: 14px;
+}
+
+.icon img {
+  width: 100px;
+}
+
+.temperature{
+  font-size: 1.75rem;
+}
+
+.minmax{
+  display: flex;
+  justify-content: center;
+}
+
+.minmax p {
+  font-size: 14px;
+  margin: 0.5rem;
+}
+
+.info{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem;
+  margin-top: 3rem;
+}
+
+.card{
+  display: flex;
+  align-items: center;
+  background: rgb(0, 0, 0);
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.card i {
+  font-size: 1.5rem;
+  margin-right:  1rem;
+}
+
+.card p {
+  font-size:  14px;
+}
+
+@media(max-width: 936px){
+  .container{
+    width: 90%;
+  }
+  .header{
+    flex-direction: column;
+  }
+
+  .unit{
+    margin-top: 1rem ;
+  }
+}
+
+@media(max-width: 400px){
+  .info{
+    grid-template-columns: none;
+  }
+}

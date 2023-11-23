@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Weather App</title>
+</head>
+<body>
+  <div class='container'>
+  <div class="header">
+    <form class='search'>
+      <input type='text' placeholder="Search for a city" class='searchform'>
+      <i class='fa-solid fa-magnifying-glass'></i>
+      <div class='units'>
+        <span class='unit_celsius'>&#176C</span>
+        <span class='unit_farenheit'>&#176F</span>
+    </form>
+  </div>
+  <div class='body'>
+    <h1 class='city'><h1>
+    <div class='datetime'></div>
+    <div class='icon'></div>
+    <p class='temperature'></p>
+    <div class='minmax'>
+      <p>Min: 12&#176</p>
+      <p>Max: 16&#176</p>
+    </div>
+  </div>
+  <div class='info'>
+    <div class='card'>
+      <i class='fa-solid fa-temperature-full'></i>
+      <div>
+        <p>Real Feel</p>
+        <p class='realfeel'>18&#176</p>
+      </div>
+    </div>
+    <div class='card'>
+      <i class='fa-solid fa-droplet'></i> 
+      <div>
+        <p>Humidity</p>
+        <p class='humidity'>18&#176</p>
+      </div>
+    </div>
+    <div class='card'>
+      <i class='fa-solid fa-wind'></i> 
+      <div>
+        <p>Wind</p>
+        <p class='wind'>18&#176</p>
+      </div>
+    </div>
+    <div class='card'>
+      <i class='fa-solid fa-gauge-high'></i> 
+      <div>
+        <p>Pressure</p>
+        <p class='pressure'>18&#176</p>
+      </div>
+    </div>    
+  <script src="index.js"></script>
+  </div>
+</body>
+</html>

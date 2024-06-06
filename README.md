@@ -33,6 +33,9 @@ The Weather App is designed to provide users with accurate and up-to-date weathe
 - **React**: For building user interfaces.
 - **OpenWeatherMap API**: For fetching weather data.
 
+## 🌐 Live Demo
+
+Check out the live demo of the Weather App: [Weather App Live Demo](https://teodorastoykova.github.io/weather-app/)
 
 ## 🙏 Acknowledgements
 
